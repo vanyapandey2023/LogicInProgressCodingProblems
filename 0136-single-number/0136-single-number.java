@@ -4,7 +4,7 @@ class Solution {
             return nums[0];
         }
         int tracker = 0;
-        for (int n : nums) {
+        for(int n : nums){
             tracker ^= n;
         }
         return tracker;
